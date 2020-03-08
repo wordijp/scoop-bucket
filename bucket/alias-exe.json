@@ -1,21 +1,24 @@
 {
     "homepage": "https://github.com/wordijp/alias-exe",
-	"description": "Provides Bash alias-like to Windows.",
-	"license": "MIT",
+    "description": "Provides Bash alias-like to Windows.",
+    "license": "MIT",
     "version": "1.0.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/wordijp/alias-exe/releases/download/v1.0.0/alias-v1.0.0-win64.zip",
-			"hash": "199440022ab3c6d0caac6ec5f7b8bd76b57e371e9acab4b2e1da4ba704ad8fda"
+            "hash": "199440022ab3c6d0caac6ec5f7b8bd76b57e371e9acab4b2e1da4ba704ad8fda"
         }
     },
+    "env_add_path": [
+        "list"
+    ],
     "bin": "alias.exe",
-	"checkver": "github",
-	"autoupdate": {
-		"architecture": {
-			"64bit": {
-				"url": "https://github.com/wordijp/alias-exe/releases/download/$version/alias-$version-win64.zip"
-			}
-		}
-	}
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wordijp/alias-exe/releases/download/$version/alias-$version-win64.zip"
+            }
+        }
+    }
 }
