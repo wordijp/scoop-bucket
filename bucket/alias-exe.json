@@ -20,11 +20,11 @@
                 "url": "https://github.com/wordijp/alias-exe/releases/download/v$version/alias-v$version-win64.zip"
             }
         },
-		"hash": {
-			"url": "$baseurl/sha256sum.txt"
-		}
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
+        }
     },
-	"post_install": [
-		"alias repair"
-	]
+    "post_install": [
+        "alias repair"
+    ]
 }
