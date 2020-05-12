@@ -23,5 +23,8 @@
 		"hash": {
 			"url": "$baseurl/sha256sum.txt"
 		}
-    }
+    },
+	"post_install": [
+		"alias repair"
+	]
 }
